@@ -40,7 +40,6 @@ function countdownTimer(value) {
     if ((ms - 1000) <= 0) {
       clearInterval(intervalId);
       Notiflix.Notify.warning('Time is out!!!');
-
    }
   }, TIME_INTERVAL);
 }
